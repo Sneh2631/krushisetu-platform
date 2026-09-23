@@ -42,6 +42,7 @@ import { EnhancedVoiceAgentModal } from './components/EnhancedVoiceAgentModal';
 import { ChatbotProvider } from './chatbot/ChatbotProvider';
 import { ChatbotDrawer } from './chatbot/ChatbotDrawer';
 import { ChatbotButton } from './chatbot/ChatbotButton';
+import { OfflineBanner, InstallPrompt } from './components/PwaComponents';
 
 function MainAppContent() {
   const { isAuthenticated, user } = useAuth();
@@ -519,6 +520,8 @@ export function App() {
         <AuthProvider>
           <ChatbotProvider>
             <MainAppContent />
+            <OfflineBanner />
+            <InstallPrompt />
           </ChatbotProvider>
         </AuthProvider>
       </LanguageProvider>

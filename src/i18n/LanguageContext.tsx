@@ -159,7 +159,22 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
 export const useTranslation = () => {
   const context = useContext(LanguageContext);
   if (!context) {
-    throw new Error('useTranslation must be used within a LanguageProvider');
+    console.warn('useTranslation used outside LanguageProvider; using fallback');
+    return {
+      language: 'en' as Language,
+      setLanguage: () => {},
+      t: (key: string, paramsOrFallback?: Record<string, string | number> | string, fallback?: string) => {
+        const defaultText = typeof paramsOrFallback === 'string' ? paramsOrFallback : fallback;
+        return defaultText || key;
+      },
+      formatINR: (amount: number) => `₹${amount}`,
+      translateCrop: (crop: Crop | string) => String(crop),
+      translateStatus: (status: string) => status,
+      translateGrade: (grade: QualityGrade | string) => String(grade),
+      translateBuyerType: (type: string) => type,
+      translateMandi: (mandi: string) => mandi,
+      translateDistrict: (district: string) => district,
+    };
   }
   return context;
 };
