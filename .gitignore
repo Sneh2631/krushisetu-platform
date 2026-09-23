@@ -47,3 +47,5 @@ temp/
 temp/
 .temp/
 .mongo-data/
+.vercel
+.env*

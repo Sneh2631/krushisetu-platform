@@ -1,0 +1,12 @@
+.mongo-data
+node_modules
+dist
+.git
+logs
+*.log
+.vscode
+.idea
+.env.local
+.env*.local
+temp
+.temp
