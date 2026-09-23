@@ -293,7 +293,7 @@ export const DealWorkspaceModal: React.FC<DealWorkspaceModalProps> = ({
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs">
               <div>
                 <span className="text-white/60 block text-[11px]">{t('cropVarietyLabel')}</span>
-                <span className="font-black text-white text-sm">{translateCrop(deal.crop || deal.cropGu)} — {deal.variety}</span>
+                <span className="font-black text-white text-sm">{translateCrop(deal.crop || deal.cropGu || '')} — {deal.variety}</span>
               </div>
               <div>
                 <span className="text-white/60 block text-[11px]">{t('agreedQuantityLabel')}</span>

@@ -840,10 +840,10 @@ export const BuyerDashboard: React.FC<BuyerDashboardProps> = ({
             <div className="space-y-4">
               <div className="p-4 rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-300 dark:border-amber-700">
                 <p className="text-xs font-bold text-amber-800 dark:text-amber-200">
-                  {t('farmerCounterLabel', { price: counterBackModalOffer.counterPrice })}
+                  {t('farmerCounterLabel', { price: counterBackModalOffer.counterPrice ?? 0 })}
                 </p>
                 <p className="text-xs text-amber-700 dark:text-amber-300 mt-1">
-                  {t('yourOriginalOfferLabel', { price: counterBackModalOffer.offeredPrice })}
+                  {t('yourOriginalOfferLabel', { price: counterBackModalOffer.offeredPrice ?? 0 })}
                 </p>
                 {counterBackModalOffer.counterNotes && (
                   <p className="text-xs text-amber-700 dark:text-amber-300 mt-2 italic">
@@ -861,7 +861,7 @@ export const BuyerDashboard: React.FC<BuyerDashboardProps> = ({
                   required
                   value={counterBackPrice || ''}
                   onChange={(e) => setCounterBackPrice(parseFloat(e.target.value) || 0)}
-                  placeholder={t('counterBetweenRangePlaceholder', { min: counterBackModalOffer.offeredPrice, max: counterBackModalOffer.counterPrice })}
+                  placeholder={t('counterBetweenRangePlaceholder', { min: counterBackModalOffer.offeredPrice ?? 0, max: counterBackModalOffer.counterPrice ?? 0 })}
                   className="w-full px-3.5 py-2 rounded-xl bg-white dark:bg-[#0F172A] border border-[#17362C]/20 dark:border-white/10 font-bold text-[#132B23] dark:text-white"
                 />
               </div>
