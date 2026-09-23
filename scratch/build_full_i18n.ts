@@ -1,0 +1,106 @@
+import fs from 'fs';
+import { TRANSLATIONS } from '../../farmer_project_SIH/src/i18n/translations';
+
+// 1. Copy current EN, HI, GU dictionaries
+const en: Record<string, string> = { ...TRANSLATIONS.en };
+const hi: Record<string, string> = { ...TRANSLATIONS.hi };
+const gu: Record<string, string> = { ...TRANSLATIONS.gu };
+const mr: Record<string, string> = {};
+
+// 2. Maharashtra Replacements in EN
+en.mahaGovt = 'Government of Maharashtra · Smart India Hackathon 2026';
+en.problemId = 'Problem Statement ID: 26132 · Agriculture, FoodTech & Rural Dev';
+en.authBenefit2Desc = 'Contract directly with pre-screened corporate food processors and agri-exporters across Maharashtra.';
+en.authBenefit3Desc = 'Guaranteed milestone disbursements via Maharashtra State clearing pool directly into your bank account.';
+en.authSuccessFarmer = '— Ramesh Patil, Sahyadri FPO Lead (Nashik)';
+en.authVillagePlaceholder = 'e.g. Baramati / Lasalgaon / Rahuri';
+en.authOrgPlaceholder = 'e.g. Sahyadri Agro Processing Ltd';
+en.adminPortalTitle = 'Government of Maharashtra · Admin Verification Portal';
+en.heroEyebrow = 'MARKET INTELLIGENCE FOR MAHARASHTRA';
+en.heroSubtext = 'KrushiSetu helps Maharashtra farmers compare prices across APMC mandis, predict demand, find verified corporate buyers and coordinate every step from farm gate to payment.';
+en.prototypeNote = '*Prototype estimates based on Maharashtra APMC & FPO pilot simulations.';
+en.heroBadge1 = 'Lasalgaon APMC · ₹28.5/kg';
+en.heroBadge2 = 'Pune Buyer Demand · High';
+en.farmerRecoReason = 'Reason: Marathwada arrivals rising next week; selling now to direct processor yields ₹2.4/kg higher net return.';
+en.dashboardSubtitle = 'Real-time overview of active produce lots, buyer offers, and escrow payouts across Maharashtra';
+en.priceDiscoverySubtitle = 'Compare Maharashtra APMC Mandi rates against Food Processors, Institutional Buyers, and Digital Channels with true net payout calculations.';
+en.forecastSubtitle = 'Deterministic supply-arrival analytics, arrival pressure modeling, and optimal harvest sale window recommendations across Maharashtra districts.';
+en.guidedLotSubtitle = 'Simple 6-step guided form to receive high-value bids from verified buyers across Maharashtra.';
+en.district = 'District (Maharashtra)';
+en.lotCreatedSuccessDesc = 'Your produce lot has been broadcast to verified buyers across Maharashtra. You will receive bid notifications within 2 hours.';
+en.marketplaceSubtitle = 'Direct digital linkages with pre-vetted corporate food processors, retail chains, and exporters across Maharashtra with 100% escrow protection.';
+en.storageSubtitle = 'Find WDRA-accredited cold storages in Maharashtra and evaluate whether storing for 3–5 days beats selling during harvest gluts.';
+en.escrowGuaranteed = '100% Escrow Secured by Maharashtra State Clearing Pool';
+en.slaNotice = 'Guaranteed resolution within 48 hours under Maharashtra Agricultural Marketing Rules.';
+en.impactTitle = 'Transforming Maharashtra Agriculture: Pilot Impact';
+en.helpCallCenterTiming = 'Available 24x7 in Marathi, Hindi, English & Gujarati';
+en.faq1A = 'All buyers must deposit 100% funds into the Maharashtra State Escrow clearing pool before transport pickup. Funds are automatically transferred to your bank upon delivery confirmation.';
+en.buyerDashboardSubtitle = 'Direct farm-level sourcing across Maharashtra FPOs with verified lot grading, escrow protection, and dispatch tracking';
+en.footerTagline = 'KrushiSetu · Bridging Farmers to Profitable Markets Across Maharashtra';
+en.govtNotice = 'Developed for Smart India Hackathon 2026 · Government of Maharashtra · Open-source prototype for demonstration purposes.';
+
+// 3. Maharashtra Replacements in HI
+hi.mahaGovt = 'महाराष्ट्र शासन · स्मार्ट इंडिया हैकथॉन 2026';
+hi.problemId = 'समस्या विवरण आईडी: 26132 · कृषि, खाद्य तकनीक एवं ग्रामीण विकास';
+hi.authBenefit2Desc = 'महाराष्ट्र भर की प्रमाणित कंपनियों, प्रसंस्करणकर्ताओं और निर्यातकों के साथ सीधे अनुबंध करें।';
+hi.authBenefit3Desc = 'महाराष्ट्र राज्य समाशोधन पूल के माध्यम से सीधे आपके बैंक खाते में 100% सुरक्षित भुगतान।';
+hi.authSuccessFarmer = '— रमेश पाटिल, सह्याद्री एफपीओ प्रमुख (नासिक)';
+hi.authVillagePlaceholder = 'जैसे बारामती / लासलगांव / राहुरी';
+hi.authOrgPlaceholder = 'जैसे सह्याद्री एग्रो फूड्स प्रा. लि.';
+hi.adminPortalTitle = 'महाराष्ट्र शासन · एडमिन सत्यापन पोर्टल';
+hi.heroEyebrow = 'महाराष्ट्र के लिए उन्नत बाजार बुद्धिमत्ता';
+hi.heroSubtext = 'कृषिसेतु महाराष्ट्र के किसानों को एपीएमसी मंडियों के भावों की तुलना करने, मांग का पूर्वानुमान लगाने, सत्यापित खरीदार खोजने और खेत से भुगतान तक सहायता करता है।';
+hi.prototypeNote = '*महाराष्ट्र एपीएमसी और एफपीओ पायलट सिमुलेशन पर आधारित प्रोटोटाइप अनुमान।';
+hi.heroBadge1 = 'लासलगांव मंडी · ₹28.5/किग्रा';
+hi.heroBadge2 = 'पुणे खरीदार मांग · उच्च';
+hi.farmerRecoReason = 'कारण: मराठवाड़ा में आवक अगले सप्ताह बढ़ने की संभावना; अभी सीधे प्रोसेसर को बेचने पर ₹2.4/किग्रा अधिक शुद्ध लाभ।';
+hi.dashboardSubtitle = 'महाराष्ट्र भर में सक्रिय फसलों, खरीदारों की बोलियों और एस्क्रो भुगतानों का सीधा विवरण';
+hi.priceDiscoverySubtitle = 'परिवहन और मंडी खर्च घटाकर महाराष्ट्र की एपीएमसी मंडियों, फूड प्रोसेसर्स और डिजिटल चैनलों के शुद्ध भावों की तुलना करें।';
+hi.forecastSubtitle = 'महाराष्ट्र के जिलों में सटीक आपूर्ति-आवक विश्लेषण और फसल बिक्री के सर्वोत्तम समय का पूर्वानुमान।';
+hi.guidedLotSubtitle = 'महाराष्ट्र भर के सत्यापित खरीदारों से सर्वोत्तम बोलियां प्राप्त करने के लिए आसान 6-चरणीय फॉर्म।';
+hi.district = 'जिला (महाराष्ट्र)';
+hi.lotCreatedSuccessDesc = 'आपकी फसल का विवरण महाराष्ट्र भर के सत्यापित खरीदारों को भेज दिया गया है। 2 घंटे में बोलियां प्राप्त होंगी।';
+hi.marketplaceSubtitle = 'महाराष्ट्र की प्रमाणित खाद्य कंपनियों, सुपरमार्केट्स और निर्यातकों से सीधे 100% सुरक्षित एस्क्रो अनुबंध।';
+hi.storageSubtitle = 'महाराष्ट्र के वेयरहाउस और कोल्ड स्टोरेज खोजें और तय करें कि 3-5 दिन का भंडारण अधिक लाभकारी है या नहीं।';
+hi.escrowGuaranteed = 'महाराष्ट्र राज्य समाशोधन पूल द्वारा 100% सुरक्षित एस्क्रो भुगतान';
+hi.slaNotice = 'महाराष्ट्र कृषि विपणन नियमों के अंतर्गत 48 घंटों में अनिवार्य समाधान।';
+hi.impactTitle = 'महाराष्ट्र कृषि में क्रांतिकारी बदलाव: पायलट परिणाम';
+hi.helpCallCenterTiming = 'मराठी, हिंदी, अंग्रेजी और गुजराती में 24x7 उपलब्ध';
+hi.faq1A = 'परिवहन से पूर्व खरीदार को 100% राशि महाराष्ट्र राज्य एस्क्रो पूल में जमा करनी होती है। माल पहुँचते ही राशि सीधे आपके खाते में आती है।';
+hi.buyerDashboardSubtitle = 'सत्यापित ग्रेडिंग, सुरक्षित एस्क्रो और ट्रैकिंग के साथ महाराष्ट्र भर के एफपीओ से सीधे खरीद';
+hi.footerTagline = 'कृषिसेतु · महाराष्ट्र के किसानों को लाभकारी बाजारों से जोड़ने वाला सेतु';
+hi.govtNotice = 'स्मार्ट इंडिया हैकथॉन 2026 के लिए विकसित · महाराष्ट्र शासन · प्रदर्शन हेतु प्रोटोटाइप।';
+
+// 4. Maharashtra Replacements in GU
+gu.mahaGovt = 'મહારાષ્ટ્ર સરકાર · સ્માર્ટ ઇન્ડિયા હેકાથોન ૨૦૨૬';
+gu.problemId = 'સમસ્યા નિવેદન આઈડી: ૨૬૧૩૨ · કૃષિ, ફૂડટેક અને ગ્રામીણ વિકાસ';
+gu.authBenefit2Desc = 'મહારાષ્ટ્રભરની જાણીતી કંપનીઓ, પ્રોસેસર્સ અને નિકાસકારો સાથે સીધા વેચાણ કરાર કરો.';
+gu.authBenefit3Desc = 'મહારાષ્ટ્ર રાજ્ય ક્લિયરિંગ પૂલ દ્વારા સીધા તમારા બેંક ખાતામાં ૧૦૦% સુરક્ષિત પેમેન્ટ મેળવો.';
+gu.authSuccessFarmer = '— રમેશ પાટીલ, સહ્યાદ્રી એફપીઓ પ્રમુખ (નાશિક)';
+gu.authVillagePlaceholder = 'દા.ત. બારામતી / લાસલગાવ / રાહુરી';
+gu.authOrgPlaceholder = 'દા.ત. સહ્યાદ્રી એગ્રો ફૂડ્સ લી.';
+gu.adminPortalTitle = 'મહારાષ્ટ્ર સરકાર · એડમિન વેરિફિકેશન પોર્ટલ';
+gu.heroEyebrow = 'મહારાષ્ટ્ર માટે માર્કેટ ઇન્ટેલિજન્સ';
+gu.heroSubtext = 'કૃષિસેતુ મહારાષ્ટ્રના ખેડૂતોને APMC યાર્ડના ભાવોની સરખામણી કરવા, માંગનું અનુમાન લગાવવા અને સુરક્ષિત ખરીદદારો સાથે સોદા કરવામાં મદદ કરે છે.';
+gu.prototypeNote = '*મહારાષ્ટ્ર APMC અને FPO પાયલોટ સિમ્યુલેશન પર આધારિત અંદાજો.';
+gu.heroBadge1 = 'લાસલગાવ APMC · ₹૨૮.૫/કિગ્રા';
+gu.heroBadge2 = 'પુણે ખરીદદાર માંગ · વધુ';
+gu.farmerRecoReason = 'કારણ: મરાઠવાડામાં આવક વધવાની શક્યતા; પ્રોસેસરને સીધું વેચવાથી ₹૨.૪/કિગ્રા વધુ ચોખ્ખો નફો મળશે.';
+gu.dashboardSubtitle = 'મહારાષ્ટ્રમાં સક્રિય પાક લોટ, ખરીદ ઓફર્સ અને એસ્ક્રો ચુકવણીઓની રીઅલ-ટાઇમ વિગતો';
+gu.priceDiscoverySubtitle = 'પરિવહન ખર્ચ બાદ કરીને મહારાષ્ટ્રની APMC મંડીઓ અને ફૂડ પ્રોસેસર્સના ચોખ્ખા ભાવોની સરખામણી કરો.';
+gu.forecastSubtitle = 'મહારાષ્ટ્રના જિલ્લાઓમાં પાક આવક વિશ્લેષણ અને પાક વેચાણના શ્રેષ્ઠ સમયની ભલામણ.';
+gu.guidedLotSubtitle = 'મહારાષ્ટ્રભરના વેરિફાઈડ ખરીદદારો પાસેથી શ્રેષ્ઠ બોલી મેળવવા માટે સરળ ૬-પગલાંનું ફોર્મ.';
+gu.district = 'જિલ્લો (મહારાષ્ટ્ર)';
+gu.lotCreatedSuccessDesc = 'તમારો પાક લોટ મહારાષ્ટ્રના વેરિફાઈડ ખરીદદારોને મોકલવામાં આવ્યો છે. ૨ કલાકમાં ઑફર્સ મળશે.';
+gu.marketplaceSubtitle = 'મહારાષ્ટ્રની અગ્રણી કંપનીઓ અને નિકાસકારો સાથે ૧૦૦% એસ્ક્રો સુરક્ષા સાથે સીધું જોડાણ.';
+gu.storageSubtitle = 'મહારાષ્ટ્રમાં WDRA માન્ય કોલ્ડ સ્ટોરેજ શોધો અને ૩-૫ દિવસ સંગ્રહ ફાયદાકારક છે કે નહીં તે જાણો.';
+gu.escrowGuaranteed = 'મહારાષ્ટ્ર રાજ્ય ક્લિયરિંગ પૂલ દ્વારા ૧૦૦% સુરક્ષિત એસ્ક્રો';
+gu.slaNotice = 'મહારાષ્ટ્ર કૃષિ માર્કેટિંગ નિયમો હેઠળ ૪૮ કલાકમાં નિરાકરણ.';
+gu.impactTitle = 'મહારાષ્ટ્ર કૃષિ ક્ષેત્રે બદલાવ: પાયલોટ પરિણામો';
+gu.helpCallCenterTiming = 'મરાઠી, હિન્દી, અંગ્રેજી અને ગુજરાતીમાં ૨૪x૭ ઉપલબ્ધ';
+gu.faq1A = 'વાહન રવાના થાય તે પહેલાં ખરીદદારે ૧૦૦% રકમ મહારાષ્ટ્ર રાજ્ય એસ્ક્રો પૂલમાં જમા કરાવવી પડે છે.';
+gu.buyerDashboardSubtitle = 'મહારાષ્ટ્રના FPOs પાસેથી સીધી ખરીદી, વેરિફાઈડ ગ્રેડિંગ અને એસ્ક્રો સુરક્ષા';
+gu.footerTagline = 'કૃષિસેતુ · મહારાષ્ટ્રના ખેડૂતોને સીધા નફાકારક બજારો સાથે જોડતું પ્લેટફોર્મ';
+gu.govtNotice = 'સ્માર્ટ ઇન્ડિયા હેકાથોન ૨૦૨૬ · મહારાષ્ટ્ર સરકાર · પ્રદર્શન હેતુ પ્રોટોટાઇપ.';
+
+console.log('Base translations updated for MH');

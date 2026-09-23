@@ -1,0 +1,29 @@
+{"kind":"deck","id":"pr/gaa7lt","name":"Deck"}
+{"kind":"layout","layoutId":"79d28b6e-2555-466c-978c-670c3e94f58c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"a1e6e6f6-57b7-4653-8e88-d66c24eed87e","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/9vvwtx","slide":1,"title":"FROM CROP LOT TO BANK CREDIT","textShapes":19}
+{"kind":"shape","id":"sh/ehcvah0v","slide":1,"name":"panel-container","bbox":[300,45,680,630]}
+{"kind":"textbox","id":"sh/14ne5wj6","slide":1,"name":"eyebrow","text":"FROM CROP LOT TO BANK CREDIT","textPreview":"FROM CROP LOT TO BANK CREDIT","textChars":28,"textLines":1,"bbox":[340,75,450,20]}
+{"kind":"textbox","id":"sh/g3excril","slide":1,"name":"headline","text":"A SALE YOU CAN TRACK","textPreview":"A SALE YOU CAN TRACK","textChars":20,"textLines":1,"bbox":[340,108,540,40]}
+{"kind":"shape","id":"sh/365w7m1c","slide":1,"name":"net-payout-badge","bbox":[340,157,315,34]}
+{"kind":"textbox","id":"sh/25wfeh0r","slide":1,"name":"net-payout-badge-text","text":"₹ NET VISIBLE BEFORE DISPATCH","textPreview":"₹ NET VISIBLE BEFORE DISPATCH","textChars":29,"textLines":1,"bbox":[352,164,292,20]}
+{"kind":"shape","id":"sh/p8ne9wji","slide":1,"name":"route-line","bbox":[390,270,500,0]}
+{"kind":"textbox","id":"sh/o7exgrix","slide":1,"name":"stage-1-marker","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[366,246,48,48]}
+{"kind":"textbox","id":"sh/ja1wv218","slide":1,"name":"stage-1-title","text":"Crop lot","textPreview":"Crop lot","textChars":8,"textLines":1,"bbox":[325,315,130,22]}
+{"kind":"textbox","id":"sh/i9sv2x0n","slide":1,"name":"stage-1-description","text":"Grade + quantity","textPreview":"Grade + quantity","textChars":16,"textLines":1,"bbox":[321,339,138,18]}
+{"kind":"textbox","id":"sh/gf2tcjml","slide":1,"name":"stage-2-marker","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[531,246,48,48]}
+{"kind":"textbox","id":"sh/1gbulon6","slide":1,"name":"stage-2-title","text":"Best buyer","textPreview":"Best buyer","textChars":10,"textLines":1,"bbox":[490,315,130,22]}
+{"kind":"textbox","id":"sh/edkba94v","slide":1,"name":"stage-2-description","text":"Net payout checked","textPreview":"Net payout checked","textChars":18,"textLines":1,"bbox":[486,339,138,18]}
+{"kind":"textbox","id":"sh/fetcje50","slide":1,"name":"stage-3-marker","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[696,246,48,48]}
+{"kind":"textbox","id":"sh/ojmtgjmx","slide":1,"name":"stage-3-title","text":"Pickup","textPreview":"Pickup","textChars":6,"textLines":1,"bbox":[655,315,130,22]}
+{"kind":"textbox","id":"sh/pkvupo3i","slide":1,"name":"stage-3-description","text":"Shared transport","textPreview":"Shared transport","textChars":16,"textLines":1,"bbox":[651,339,138,18]}
+{"kind":"textbox","id":"sh/2h4bet4r","slide":1,"name":"stage-4-marker","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[866,246,48,48]}
+{"kind":"textbox","id":"sh/3idcnelc","slide":1,"name":"stage-4-title","text":"Bank credit","textPreview":"Bank credit","textChars":11,"textLines":1,"bbox":[825,315,130,22]}
+{"kind":"textbox","id":"sh/4nit4zmd","slide":1,"name":"stage-4-description","text":"Payment tracked","textPreview":"Payment tracked","textChars":15,"textLines":1,"bbox":[821,339,138,18]}
+{"kind":"shape","id":"sh/5orud4ny","slide":1,"name":"trust-strip","bbox":[340,405,600,58]}
+{"kind":"textbox","id":"sh/l8zilwbq","slide":1,"name":"trust-strip-text","text":"Verified buyer   •   Quality confirmed   •   Payment tracked","textPreview":"Verified buyer   •   Quality confirmed   •   Payment tracked","textChars":60,"textLines":1,"bbox":[360,422,560,24]}
+{"kind":"shape","id":"sh/07q1sra5","slide":1,"name":"final-statement","bbox":[340,490,600,66]}
+{"kind":"textbox","id":"sh/z6h0jmtk","slide":1,"name":"final-statement-title","text":"ONE CROP LOT. ONE TRACEABLE SALE.","textPreview":"ONE CROP LOT. ONE TRACEABLE SALE.","textChars":33,"textLines":1,"bbox":[360,507,560,23]}
+{"kind":"textbox","id":"sh/y58jqhsz","slide":1,"name":"final-statement-subtitle","text":"From the farmer’s decision to confirmed payment","textPreview":"From the farmer’s decision to confirmed payment","textChars":47,"textLines":1,"bbox":[360,532,560,16]}
+{"kind":"textbox","id":"sh/9wjipwbm","slide":1,"name":"caption","text":"A clear decision before dispatch. Visibility until payment.","textPreview":"A clear decision before dispatch. Visibility until payment.","textChars":59,"textLines":1,"bbox":[340,595,600,18]}
+{"kind":"notes","id":"nt/9vvwtx","slide":1,"text":"Editable KrushiSetu slide component. Claims reflect supplied project functionality and should be updated to match the final implementation."}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">KrushiSetu logo option two</title><desc id="d">An abstract bridge with a sprouting plant.</desc>
+  <rect width="1200" height="700" fill="#fff"/>
+  <path d="M370 370 Q600 145 830 370" fill="none" stroke="#276749" stroke-width="36" stroke-linecap="round"/>
+  <path d="M408 370V423 M792 370V423" stroke="#276749" stroke-width="28" stroke-linecap="round"/>
+  <path d="M600 318V220 M600 266C535 257 510 211 523 169C572 175 602 210 600 266 M600 247C642 243 676 211 679 170C630 170 600 203 600 247" fill="#76A947" stroke="#76A947" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M385 446H815" stroke="#D69E2E" stroke-width="18" stroke-linecap="round"/>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="88" font-weight="700" fill="#276749">KRUSHI<tspan fill="#D69E2E">SETU</tspan></text>
+  <text x="600" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" letter-spacing="7" fill="#5B6B5C">GROWING CONNECTIONS</text>
+</svg>

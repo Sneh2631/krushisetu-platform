@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Four mini visual options for the KrushiSetu blank panel</title>
+  <desc id="desc">A side-by-side display of four compact infographic concepts: the 100 rupee test, sale check, four unknowns, and price versus payout.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f4f7ec}.card{fill:#fff;stroke:#cadac5;stroke-width:3}.title{font:700 30px Arial,sans-serif;fill:#17372b}.tag{font:700 18px Arial,sans-serif;fill:#53785a;letter-spacing:1px}.small{font:600 20px Arial,sans-serif;fill:#52685e}.tiny{font:600 17px Arial,sans-serif;fill:#52685e}.heavy{font:700 34px Arial,sans-serif;fill:#17372b}.orange{fill:#e3703f}.orangeText{fill:#a84623}.green{fill:#17372b}.lime{fill:#d9f55a}.white{fill:#fff}.line{stroke:#a8bf9e;stroke-width:5}.dash{stroke:#aac0a1;stroke-width:3;stroke-dasharray:8 8}.muted{fill:#dbe8d7}.paleOrange{fill:#f9d8c8}.paleGreen{fill:#dff0c9}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text x="800" y="58" text-anchor="middle" class="title">Choose one visual for the blank space in your slide</text>
+  <text x="800" y="90" text-anchor="middle" class="small">Each option fits inside the small box and needs almost no reading</text>
+
+  <!-- Option 1 -->
+  <text x="215" y="145" text-anchor="middle" class="tag">OPTION 1 • RECOMMENDED</text>
+  <rect x="40" y="165" width="350" height="570" rx="24" class="card"/>
+  <text x="215" y="207" text-anchor="middle" class="tiny">THE ₹100 TEST</text>
+  <text x="215" y="243" text-anchor="middle" class="heavy">PRICE ≠ PAYOUT</text>
+  <circle cx="128" cy="325" r="57" class="paleOrange"/><text x="128" y="337" text-anchor="middle" class="heavy orangeText">₹100</text>
+  <circle cx="302" cy="325" r="57" class="paleGreen"/><text x="302" y="337" text-anchor="middle" class="heavy">₹100</text>
+  <text x="128" y="408" text-anchor="middle" class="tiny">Offer shown</text><text x="302" y="408" text-anchor="middle" class="tiny">Offer checked</text>
+  <text x="128" y="454" text-anchor="middle" style="font:700 32px Arial;fill:#e3703f">↓</text><text x="302" y="454" text-anchor="middle" style="font:700 32px Arial;fill:#527a56">↓</text>
+  <text x="128" y="486" text-anchor="middle" class="tiny" style="fill:#a84623">Freight</text><text x="128" y="510" text-anchor="middle" class="tiny" style="fill:#a84623">Fees</text><text x="128" y="534" text-anchor="middle" class="tiny" style="fill:#a84623">Storage</text>
+  <text x="302" y="486" text-anchor="middle" class="tiny" style="fill:#356342">All costs</text><text x="302" y="510" text-anchor="middle" class="tiny" style="fill:#356342">visible first</text>
+  <text x="128" y="596" text-anchor="middle" class="heavy orangeText">₹ ?</text>
+  <rect x="249" y="558" width="106" height="65" rx="10" class="green"/><text x="302" y="584" text-anchor="middle" style="font:700 17px Arial;fill:#d9f55a">₹ NET</text><text x="302" y="607" text-anchor="middle" style="font:700 13px Arial;fill:#fff">IN BANK</text>
+  <rect x="66" y="662" width="298" height="46" rx="9" class="green"/><text x="215" y="691" text-anchor="middle" style="font:700 15px Arial;fill:#d9f55a">KNOW FINAL PAYOUT BEFORE SALE</text>
+
+  <!-- Option 2 -->
+  <text x="605" y="145" text-anchor="middle" class="tag">OPTION 2 • SALE CHECK</text>
+  <rect x="430" y="165" width="350" height="570" rx="24" class="card"/>
+  <rect x="457" y="194" width="296" height="74" rx="12" class="green"/><text x="605" y="225" text-anchor="middle" style="font:700 17px Arial;fill:#d9f55a;letter-spacing:1px">KRUSHISETU</text><text x="605" y="250" text-anchor="middle" style="font:700 23px Arial;fill:#fff">SALE CHECK</text>
+  <circle cx="605" cy="356" r="71" class="paleGreen" stroke="#17372b" stroke-width="4"/><text x="605" y="345" text-anchor="middle" style="font:700 17px Arial;fill:#527a56">FARMER SEES</text><text x="605" y="382" text-anchor="middle" class="heavy">₹ NET</text>
+  <rect x="475" y="452" width="260" height="45" rx="9" class="muted"/><text x="500" y="482" style="font:700 20px Arial;fill:#17372b">✓</text><text x="532" y="482" class="tiny">Buyer verified</text>
+  <rect x="475" y="509" width="260" height="45" rx="9" class="muted"/><text x="500" y="539" style="font:700 20px Arial;fill:#17372b">✓</text><text x="532" y="539" class="tiny">Pickup planned</text>
+  <rect x="475" y="566" width="260" height="45" rx="9" class="muted"/><text x="500" y="596" style="font:700 20px Arial;fill:#17372b">✓</text><text x="532" y="596" class="tiny">Payment tracked</text>
+  <text x="605" y="677" text-anchor="middle" class="heavy">SEND WITH CONFIDENCE</text>
+  <text x="605" y="705" text-anchor="middle" class="tiny">Not just a price. A sale plan.</text>
+
+  <!-- Option 3 -->
+  <text x="995" y="145" text-anchor="middle" class="tag">OPTION 3 • FOUR UNKNOWNs</text>
+  <rect x="820" y="165" width="350" height="570" rx="24" class="card"/>
+  <text x="995" y="212" text-anchor="middle" class="heavy">4 QUESTIONS</text>
+  <text x="995" y="240" text-anchor="middle" class="tiny">ONE FARMER DECISION</text>
+  <rect x="853" y="280" width="125" height="54" rx="10" class="paleOrange"/><text x="916" y="314" text-anchor="middle" style="font:700 22px Arial;fill:#a84623">PRICE ?</text>
+  <rect x="1012" y="280" width="125" height="54" rx="10" class="paleOrange"/><text x="1074" y="314" text-anchor="middle" style="font:700 22px Arial;fill:#a84623">BUYER ?</text>
+  <rect x="853" y="351" width="125" height="54" rx="10" class="paleOrange"/><text x="916" y="385" text-anchor="middle" style="font:700 22px Arial;fill:#a84623">PICKUP ?</text>
+  <rect x="1012" y="351" width="125" height="54" rx="10" class="paleOrange"/><text x="1074" y="385" text-anchor="middle" style="font:700 22px Arial;fill:#a84623">PAYMENT ?</text>
+  <text x="995" y="463" text-anchor="middle" style="font:700 40px Arial;fill:#e3703f">↓</text>
+  <rect x="862" y="487" width="266" height="75" rx="13" class="green"/><text x="995" y="519" text-anchor="middle" style="font:700 17px Arial;fill:#d9f55a">KRUSHISETU ANSWER</text><text x="995" y="548" text-anchor="middle" style="font:700 24px Arial;fill:#fff">₹ NET + SAFE SALE</text>
+  <text x="995" y="652" text-anchor="middle" class="heavy">ONE DECISION</text><text x="995" y="681" text-anchor="middle" class="tiny">before the crop leaves the village</text>
+
+  <!-- Option 4 -->
+  <text x="1385" y="145" text-anchor="middle" class="tag">OPTION 4 • TRACEABLE ROUTE</text>
+  <rect x="1210" y="165" width="350" height="570" rx="24" class="card"/>
+  <text x="1385" y="210" text-anchor="middle" class="heavy">CROP → CREDIT</text>
+  <text x="1385" y="238" text-anchor="middle" class="tiny">THE SALE SHOULD NOT DISAPPEAR</text>
+  <line x1="1267" y1="367" x2="1503" y2="367" class="line"/>
+  <circle cx="1273" cy="367" r="28" class="green"/><text x="1273" y="375" text-anchor="middle" style="font:700 17px Arial;fill:#d9f55a">1</text>
+  <circle cx="1350" cy="367" r="28" class="green"/><text x="1350" y="375" text-anchor="middle" style="font:700 17px Arial;fill:#d9f55a">2</text>
+  <circle cx="1427" cy="367" r="28" class="green"/><text x="1427" y="375" text-anchor="middle" style="font:700 17px Arial;fill:#d9f55a">3</text>
+  <circle cx="1504" cy="367" r="28" class="green"/><text x="1504" y="375" text-anchor="middle" style="font:700 17px Arial;fill:#d9f55a">4</text>
+  <text x="1273" y="426" text-anchor="middle" class="tiny">Crop lot</text><text x="1350" y="426" text-anchor="middle" class="tiny">Buyer</text><text x="1427" y="426" text-anchor="middle" class="tiny">Pickup</text><text x="1504" y="426" text-anchor="middle" class="tiny">Bank</text>
+  <text x="1273" y="450" text-anchor="middle" style="font:600 14px Arial;fill:#61766a">Grade</text><text x="1350" y="450" text-anchor="middle" style="font:600 14px Arial;fill:#61766a">Verified</text><text x="1427" y="450" text-anchor="middle" style="font:600 14px Arial;fill:#61766a">Tracked</text><text x="1504" y="450" style="font:600 14px Arial;fill:#61766a" text-anchor="middle">Credited</text>
+  <rect x="1240" y="514" width="290" height="63" rx="11" class="paleGreen"/><text x="1385" y="542" text-anchor="middle" style="font:700 16px Arial;fill:#17372b">A TRACEABLE SALE JOURNEY</text><text x="1385" y="565" text-anchor="middle" class="tiny">from farm gate to final payment</text>
+  <rect x="1240" y="644" width="290" height="48" rx="9" class="green"/><text x="1385" y="674" text-anchor="middle" style="font:700 15px Arial;fill:#d9f55a">NO CROP LEAVES UNTRACKED</text>
+  <text x="800" y="842" text-anchor="middle" class="small">Use Option 1 if you want instant impact. Use Option 4 if you want to show execution and trust.</text>
+</svg>

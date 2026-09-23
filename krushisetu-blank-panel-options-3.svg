@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Four more compact visual choices for KrushiSetu</title>
+  <desc id="desc">Compact visuals showing smart sale timing, nearest versus best buyer, payment protection and a farmer decision compass.</desc>
+  <defs><style>
+    .bg{fill:#f4f7ec}.card{fill:#fff;stroke:#cadac5;stroke-width:3}.title{font:700 30px Arial,sans-serif;fill:#17372b}.tag{font:700 18px Arial,sans-serif;fill:#53785a;letter-spacing:1px}.small{font:600 20px Arial,sans-serif;fill:#52685e}.tiny{font:600 17px Arial,sans-serif;fill:#52685e}.heavy{font:700 33px Arial,sans-serif;fill:#17372b}.green{fill:#17372b}.lime{fill:#d9f55a}.orange{fill:#e3703f}.paleOrange{fill:#f9d8c8}.paleGreen{fill:#dff0c9}.muted{fill:#dce8d7}.light{fill:#f6f9ef}.line{stroke:#9dbc82;stroke-width:5}.thin{stroke:#aabfa1;stroke-width:3}.dash{stroke:#e3703f;stroke-width:4;stroke-dasharray:8 8}.white{fill:#fff}
+  </style></defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text x="800" y="58" text-anchor="middle" class="title">More compact visual options for KrushiSetu</text>
+  <text x="800" y="90" text-anchor="middle" class="small">These highlight sale timing, route choice, payment security and farmer control</text>
+
+  <!-- 9 -->
+  <text x="215" y="145" text-anchor="middle" class="tag">OPTION 9 • SMART SALE SIGNAL</text>
+  <rect x="40" y="165" width="350" height="570" rx="24" class="card"/>
+  <text x="215" y="210" text-anchor="middle" class="heavy">DON'T JUST SELL.</text><text x="215" y="242" text-anchor="middle" class="heavy">TIME THE SALE.</text>
+  <circle cx="215" cy="386" r="112" fill="#eef5e8" stroke="#9dbc82" stroke-width="4"/>
+  <path d="M215 386 L215 281" stroke="#17372b" stroke-width="8" stroke-linecap="round"/><path d="M215 386 L298 435" stroke="#e3703f" stroke-width="8" stroke-linecap="round"/><path d="M215 386 L132 435" stroke="#527a56" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="215" cy="386" r="38" class="green"/><text x="215" y="379" text-anchor="middle" style="font:700 12px Arial;fill:#d9f55a">SALE</text><text x="215" y="403" text-anchor="middle" style="font:700 16px Arial;fill:#fff">SIGNAL</text>
+  <text x="215" y="271" text-anchor="middle" style="font:700 18px Arial;fill:#17372b">SELL NOW</text>
+  <text x="317" y="451" text-anchor="middle" style="font:700 18px Arial;fill:#a84623">STORE</text>
+  <text x="112" y="451" text-anchor="middle" style="font:700 18px Arial;fill:#356342">POOL</text>
+  <text x="215" y="541" text-anchor="middle" class="tiny">Price forecast + storage cost + pickup option</text>
+  <rect x="62" y="642" width="306" height="48" rx="9" class="green"/><text x="215" y="672" text-anchor="middle" style="font:700 15px Arial;fill:#d9f55a">THE FARMER GETS A SALE DECISION, NOT JUST A RATE</text>
+
+  <!-- 10 -->
+  <text x="605" y="145" text-anchor="middle" class="tag">OPTION 10 • NEAREST IS NOT BEST</text>
+  <rect x="430" y="165" width="350" height="570" rx="24" class="card"/>
+  <text x="605" y="210" text-anchor="middle" class="heavy">NEAREST MARKET</text><text x="605" y="242" text-anchor="middle" class="heavy">≠ BEST SALE</text>
+  <circle cx="605" cy="382" r="40" class="paleGreen"/><text x="605" y="393" text-anchor="middle" style="font:700 28px Arial;fill:#17372b">🌾</text><text x="605" y="441" text-anchor="middle" class="tiny">Farm</text>
+  <path d="M574 364 C529 320 505 331 491 361" fill="none" class="dash"/><path d="M635 365 C688 319 722 335 729 374" fill="none" stroke="#527a56" stroke-width="7"/>
+  <circle cx="486" cy="361" r="36" class="paleOrange"/><text x="486" y="355" text-anchor="middle" style="font:700 13px Arial;fill:#a84623">NEAR</text><text x="486" y="375" text-anchor="middle" style="font:700 13px Arial;fill:#a84623">APMC</text>
+  <circle cx="731" cy="374" r="42" class="green"/><text x="731" y="367" text-anchor="middle" style="font:700 13px Arial;fill:#d9f55a">BEST</text><text x="731" y="389" text-anchor="middle" style="font:700 15px Arial;fill:#fff">₹ NET</text>
+  <text x="487" y="462" text-anchor="middle" class="tiny">Easy route</text><text x="487" y="486" text-anchor="middle" style="font:700 16px Arial;fill:#a84623">₹ ? payout</text>
+  <text x="731" y="462" text-anchor="middle" class="tiny">Smart route</text><text x="731" y="486" text-anchor="middle" style="font:700 16px Arial;fill:#356342">₹ NET known</text>
+  <rect x="456" y="548" width="298" height="61" rx="11" class="light"/><text x="605" y="575" text-anchor="middle" style="font:700 17px Arial;fill:#17372b">KRUSHISETU COMPARES</text><text x="605" y="599" text-anchor="middle" class="tiny">price + cost + distance + payment terms</text>
+  <rect x="458" y="642" width="294" height="48" rx="9" class="green"/><text x="605" y="672" text-anchor="middle" style="font:700 15px Arial;fill:#d9f55a">CHOOSE THE BEST DESTINATION, NOT THE CLOSEST ONE</text>
+
+  <!-- 11 -->
+  <text x="995" y="145" text-anchor="middle" class="tag">OPTION 11 • PAYMENT SHIELD</text>
+  <rect x="820" y="165" width="350" height="570" rx="24" class="card"/>
+  <text x="995" y="210" text-anchor="middle" class="heavy">A PRICE PROMISE</text><text x="995" y="242" text-anchor="middle" class="heavy">IS NOT ENOUGH</text>
+  <path d="M995 285 L1104 324 L1084 473 Q1052 545 995 575 Q938 545 906 473 L886 324 Z" class="green"/>
+  <path d="M995 304 L1083 335 L1067 463 Q1040 520 995 544 Q950 520 923 463 L907 335 Z" fill="none" stroke="#d9f55a" stroke-width="4"/>
+  <text x="995" y="373" text-anchor="middle" style="font:700 17px Arial;fill:#d9f55a">PAYMENT</text><text x="995" y="407" text-anchor="middle" style="font:700 28px Arial;fill:#fff">TRACKED</text><text x="995" y="438" text-anchor="middle" style="font:700 15px Arial;fill:#d9f55a">MILESTONE BY MILESTONE</text>
+  <circle cx="889" cy="552" r="28" class="paleGreen"/><text x="889" y="561" text-anchor="middle" style="font:700 21px Arial;fill:#17372b">✓</text><text x="929" y="559" class="tiny">Buyer verified</text>
+  <circle cx="889" cy="595" r="28" class="paleGreen"/><text x="889" y="604" text-anchor="middle" style="font:700 21px Arial;fill:#17372b">✓</text><text x="929" y="602" class="tiny">Quality confirmed</text>
+  <rect x="847" y="642" width="296" height="48" rx="9" class="green"/><text x="995" y="672" text-anchor="middle" style="font:700 15px Arial;fill:#d9f55a">TRACK THE PAYMENT, NOT JUST THE PROMISE</text>
+
+  <!-- 12 -->
+  <text x="1385" y="145" text-anchor="middle" class="tag">OPTION 12 • FARMER DECISION COMPASS</text>
+  <rect x="1210" y="165" width="350" height="570" rx="24" class="card"/>
+  <text x="1385" y="210" text-anchor="middle" class="heavy">FARMER IN CONTROL</text><text x="1385" y="242" text-anchor="middle" class="tiny">ONE LOT. FOUR DECISION SIGNALS.</text>
+  <circle cx="1385" cy="420" r="65" class="green"/><text x="1385" y="412" text-anchor="middle" style="font:700 13px Arial;fill:#d9f55a">BEST</text><text x="1385" y="440" text-anchor="middle" style="font:700 20px Arial;fill:#fff">SALE</text>
+  <line x1="1385" y1="319" x2="1385" y2="355" class="thin"/><line x1="1485" y1="420" x2="1450" y2="420" class="thin"/><line x1="1385" y1="521" x2="1385" y2="485" class="thin"/><line x1="1285" y1="420" x2="1320" y2="420" class="thin"/>
+  <circle cx="1385" cy="300" r="39" class="paleGreen"/><text x="1385" y="294" text-anchor="middle" style="font:700 11px Arial;fill:#17372b">PRICE</text><text x="1385" y="315" text-anchor="middle" style="font:700 14px Arial;fill:#17372b">SIGNAL</text>
+  <circle cx="1504" cy="420" r="39" class="paleGreen"/><text x="1504" y="414" text-anchor="middle" style="font:700 11px Arial;fill:#17372b">BUYER</text><text x="1504" y="435" text-anchor="middle" style="font:700 14px Arial;fill:#17372b">TRUST</text>
+  <circle cx="1385" cy="540" r="39" class="paleGreen"/><text x="1385" y="534" text-anchor="middle" style="font:700 11px Arial;fill:#17372b">PAYMENT</text><text x="1385" y="555" text-anchor="middle" style="font:700 14px Arial;fill:#17372b">SAFETY</text>
+  <circle cx="1266" cy="420" r="39" class="paleGreen"/><text x="1266" y="414" text-anchor="middle" style="font:700 11px Arial;fill:#17372b">PICKUP</text><text x="1266" y="435" text-anchor="middle" style="font:700 14px Arial;fill:#17372b">COST</text>
+  <text x="1385" y="628" text-anchor="middle" class="tiny">KrushiSetu converts four signals into one action</text>
+  <rect x="1240" y="642" width="290" height="48" rx="9" class="green"/><text x="1385" y="672" text-anchor="middle" style="font:700 15px Arial;fill:#d9f55a">THE FARMER DECIDES WITH DATA, NOT PRESSURE</text>
+  <text x="800" y="842" text-anchor="middle" class="small">Option 9 is highly unique. Option 10 is very easy for a jury to understand. Option 11 adds trust. Option 12 looks most technology-led.</text>
+</svg>

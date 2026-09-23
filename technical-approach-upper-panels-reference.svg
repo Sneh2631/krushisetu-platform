@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">KrushiSetu technical approach slide reference</title>
+  <desc id="desc">A slide design reference with three compact upper panels: farmer-first access, secure marketplace, and sale-decision support. A seven-step marketplace workflow appears below.</desc>
+  <defs>
+    <style>
+      .bg{fill:#fff}.ink{fill:#102f25}.green{fill:#248447}.orange{fill:#e67d2e}.pale{fill:#f2f8f0}.mint{fill:#e5f3e6}.line{stroke:#12382b;stroke-width:3}.thin{stroke:#b9d8bf;stroke-width:2}.dash{stroke:#b9d8bf;stroke-width:2;stroke-dasharray:6 6}.head{font:700 31px Arial,sans-serif;fill:#102f25}.brand{font:700 38px Arial,sans-serif}.title{font:700 37px Georgia,serif;fill:#102f25}.panelTitle{font:700 23px Arial,sans-serif;fill:#102f25}.body{font:600 16px Arial,sans-serif;fill:#506b60}.small{font:600 14px Arial,sans-serif;fill:#506b60}.tiny{font:600 12px Arial,sans-serif;fill:#506b60}.pill{font:700 13px Arial,sans-serif;fill:#248447;letter-spacing:.4px}.step{font:700 14px Arial,sans-serif;fill:#102f25}.stepbody{font:600 11px Arial,sans-serif;fill:#506b60}.stepNo{font:700 15px Arial,sans-serif;fill:#248447}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <!-- header -->
+  <text x="44" y="72" class="brand green">KRUSHI</text><text x="224" y="72" class="brand orange">SETU</text>
+  <line x1="443" y1="22" x2="443" y2="102" class="line"/>
+  <text x="800" y="72" text-anchor="middle" class="title">TECHNICAL APPROACH</text>
+  <line x1="1250" y1="22" x2="1250" y2="102" class="line"/>
+  <circle cx="1317" cy="61" r="30" fill="#e8f3e6" stroke="#248447" stroke-width="3"/><text x="1317" y="69" text-anchor="middle" style="font:700 27px Arial;fill:#e67d2e">SIH</text>
+  <text x="1363" y="54" style="font:700 18px Arial;fill:#102f25">SMART INDIA</text><text x="1363" y="77" style="font:700 18px Arial;fill:#102f25">HACKATHON 2026</text>
+  <line x1="30" y1="120" x2="1570" y2="120" class="line"/>
+  <!-- upper panels note -->
+  <text x="800" y="155" text-anchor="middle" style="font:700 17px Arial;fill:#248447;letter-spacing:1px">THREE LAYERS WORK TOGETHER FOR ONE FARMER SALE</text>
+  <!-- Panel A -->
+  <rect x="58" y="180" width="458" height="334" rx="17" class="pale" stroke="#a5d6ae" stroke-width="2"/>
+  <circle cx="287" cy="240" r="39" class="mint" stroke="#248447" stroke-width="2"/>
+  <rect x="272" y="215" width="30" height="49" rx="5" fill="#248447"/><rect x="278" y="221" width="18" height="28" rx="2" fill="#fff"/><circle cx="287" cy="255" r="3" fill="#fff"/>
+  <text x="287" y="305" text-anchor="middle" class="panelTitle">Farmer-first access</text>
+  <text x="102" y="345" class="body">A simple mobile interface lets farmers</text><text x="102" y="370" class="body">list produce, compare options and track</text><text x="102" y="395" class="body">their sale in Gujarati, Hindi or English.</text>
+  <line x1="102" y1="425" x2="472" y2="425" class="thin"/>
+  <rect x="102" y="446" width="129" height="35" rx="17" class="mint"/><text x="166" y="469" text-anchor="middle" class="pill">React + PWA</text>
+  <rect x="244" y="446" width="132" height="35" rx="17" class="mint"/><text x="310" y="469" text-anchor="middle" class="pill">Responsive UI</text>
+  <rect x="389" y="446" width="83" height="35" rx="17" class="mint"/><text x="431" y="469" text-anchor="middle" class="pill">3 languages</text>
+  <!-- Panel B -->
+  <rect x="571" y="180" width="458" height="334" rx="17" fill="#f3f8fb" stroke="#9bc9e5" stroke-width="2"/>
+  <circle cx="800" cy="240" r="39" fill="#e1f0fb" stroke="#2775a8" stroke-width="2"/>
+  <path d="M786 249 V233 Q800 211 814 233 V249 Z" fill="#2775a8"/><rect x="781" y="246" width="38" height="22" rx="5" fill="#2775a8"/><circle cx="800" cy="251" r="4" fill="#fff"/>
+  <text x="800" y="305" text-anchor="middle" class="panelTitle">Secure marketplace</text>
+  <text x="615" y="345" class="body">Every crop lot, buyer offer and deal status</text><text x="615" y="370" class="body">is recorded in one system with role-based</text><text x="615" y="395" class="body">access, verification and audit history.</text>
+  <line x1="615" y1="425" x2="985" y2="425" class="thin"/>
+  <rect x="615" y="446" width="118" height="35" rx="17" fill="#e1f0fb"/><text x="674" y="469" text-anchor="middle" style="font:700 13px Arial;fill:#2775a8">Express API</text>
+  <rect x="747" y="446" width="116" height="35" rx="17" fill="#e1f0fb"/><text x="805" y="469" text-anchor="middle" style="font:700 13px Arial;fill:#2775a8">MongoDB</text>
+  <rect x="876" y="446" width="109" height="35" rx="17" fill="#e1f0fb"/><text x="930" y="469" text-anchor="middle" style="font:700 13px Arial;fill:#2775a8">OTP + roles</text>
+  <!-- Panel C -->
+  <rect x="1084" y="180" width="458" height="334" rx="17" fill="#faf7fe" stroke="#c8afe8" stroke-width="2"/>
+  <circle cx="1313" cy="240" r="39" fill="#eee4fb" stroke="#7040aa" stroke-width="2"/>
+  <path d="M1293 253 L1305 240 L1314 247 L1334 223" fill="none" stroke="#7040aa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1293" cy="253" r="4" fill="#7040aa"/><circle cx="1305" cy="240" r="4" fill="#7040aa"/><circle cx="1314" cy="247" r="4" fill="#7040aa"/><circle cx="1334" cy="223" r="4" fill="#7040aa"/>
+  <text x="1313" y="305" text-anchor="middle" class="panelTitle">Sale-decision support</text>
+  <text x="1128" y="345" class="body">The platform compares net payout after</text><text x="1128" y="370" class="body">costs and supports the choice to sell,</text><text x="1128" y="395" class="body">store or join a pooled pickup route.</text>
+  <line x1="1128" y1="425" x2="1498" y2="425" class="thin"/>
+  <rect x="1128" y="446" width="111" height="35" rx="17" fill="#eee4fb"/><text x="1184" y="469" text-anchor="middle" style="font:700 13px Arial;fill:#7040aa">Net payout</text>
+  <rect x="1252" y="446" width="109" height="35" rx="17" fill="#eee4fb"/><text x="1307" y="469" text-anchor="middle" style="font:700 13px Arial;fill:#7040aa">Forecasts</text>
+  <rect x="1374" y="446" width="124" height="35" rx="17" fill="#eee4fb"/><text x="1436" y="469" text-anchor="middle" style="font:700 13px Arial;fill:#7040aa">Voice support</text>
+  <!-- Divider and workflow label -->
+  <line x1="58" y1="550" x2="1542" y2="550" class="line"/>
+  <rect x="530" y="532" width="540" height="37" fill="#fff"/><text x="800" y="557" text-anchor="middle" class="head">How the Marketplace Works</text>
+  <!-- workflow -->
+  <line x1="100" y1="625" x2="1500" y2="625" class="thin"/>
+  <g>
+    <circle cx="145" cy="625" r="25" fill="#fff" stroke="#248447" stroke-width="3"/><text x="145" y="631" text-anchor="middle" class="stepNo">1</text><rect x="95" y="656" width="100" height="143" fill="#fff" stroke="#b9d8bf" stroke-width="2"/><rect x="95" y="656" width="100" height="7" class="green"/><text x="110" y="691" class="step">Create</text><text x="110" y="709" class="step">account</text><text x="110" y="738" class="stepbody">Mobile OTP and</text><text x="110" y="753" class="stepbody">basic profile</text>
+    <circle cx="360" cy="625" r="25" fill="#fff" stroke="#248447" stroke-width="3"/><text x="360" y="631" text-anchor="middle" class="stepNo">2</text><rect x="310" y="656" width="100" height="143" fill="#fff" stroke="#b9d8bf" stroke-width="2"/><rect x="310" y="656" width="100" height="7" class="green"/><text x="325" y="691" class="step">List crop</text><text x="325" y="738" class="stepbody">Grade, quantity</text><text x="325" y="753" class="stepbody">and pickup point</text>
+    <circle cx="575" cy="625" r="25" fill="#fff" stroke="#248447" stroke-width="3"/><text x="575" y="631" text-anchor="middle" class="stepNo">3</text><rect x="525" y="656" width="100" height="143" fill="#fff" stroke="#b9d8bf" stroke-width="2"/><rect x="525" y="656" width="100" height="7" class="green"/><text x="540" y="691" class="step">Compare</text><text x="540" y="709" class="step">offers</text><text x="540" y="738" class="stepbody">Net payout, buyer</text><text x="540" y="753" class="stepbody">and payment terms</text>
+    <circle cx="790" cy="625" r="25" fill="#fff" stroke="#248447" stroke-width="3"/><text x="790" y="631" text-anchor="middle" class="stepNo">4</text><rect x="740" y="656" width="100" height="143" fill="#fff" stroke="#b9d8bf" stroke-width="2"/><rect x="740" y="656" width="100" height="7" class="green"/><text x="755" y="691" class="step">Choose sale</text><text x="755" y="738" class="stepbody">Sell, store or</text><text x="755" y="753" class="stepbody">join pooled pickup</text>
+    <circle cx="1005" cy="625" r="25" fill="#fff" stroke="#248447" stroke-width="3"/><text x="1005" y="631" text-anchor="middle" class="stepNo">5</text><rect x="955" y="656" width="100" height="143" fill="#fff" stroke="#b9d8bf" stroke-width="2"/><rect x="955" y="656" width="100" height="7" class="green"/><text x="970" y="691" class="step">Pickup</text><text x="970" y="738" class="stepbody">Quality check and</text><text x="970" y="753" class="stepbody">delivery status</text>
+    <circle cx="1220" cy="625" r="25" fill="#fff" stroke="#248447" stroke-width="3"/><text x="1220" y="631" text-anchor="middle" class="stepNo">6</text><rect x="1170" y="656" width="100" height="143" fill="#fff" stroke="#b9d8bf" stroke-width="2"/><rect x="1170" y="656" width="100" height="7" class="green"/><text x="1185" y="691" class="step">Track deal</text><text x="1185" y="738" class="stepbody">Delivery and</text><text x="1185" y="753" class="stepbody">payment milestone</text>
+    <circle cx="1435" cy="625" r="25" fill="#fff" stroke="#248447" stroke-width="3"/><text x="1435" y="631" text-anchor="middle" class="stepNo">7</text><rect x="1385" y="656" width="100" height="143" fill="#fff" stroke="#b9d8bf" stroke-width="2"/><rect x="1385" y="656" width="100" height="7" class="green"/><text x="1400" y="691" class="step">Rate deal</text><text x="1400" y="738" class="stepbody">Feedback builds</text><text x="1400" y="753" class="stepbody">buyer trust</text>
+  </g>
+  <text x="800" y="850" text-anchor="middle" style="font:700 15px Arial;fill:#248447">Human-friendly front end • Secure transaction system • Clear sale decision support</text>
+</svg>

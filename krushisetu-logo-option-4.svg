@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">KrushiSetu logo option four</title><desc id="d">A minimal KS monogram with field lines.</desc>
+  <rect width="1200" height="700" fill="#fff"/>
+  <rect x="420" y="120" width="360" height="360" rx="60" fill="#2E7D32"/>
+  <path d="M510 210V388 M510 300L632 210 M510 300L642 388" fill="none" stroke="#fff" stroke-width="31" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M695 212C656 185 622 208 626 239C630 275 706 260 706 315C706 351 665 375 625 348" fill="none" stroke="#D9A441" stroke-width="29" stroke-linecap="round"/>
+  <path d="M465 440 Q600 383 735 440" fill="none" stroke="#D9A441" stroke-width="14" stroke-linecap="round"/>
+  <text x="600" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="84" font-weight="700" fill="#263D2E">KrushiSetu</text>
+</svg>

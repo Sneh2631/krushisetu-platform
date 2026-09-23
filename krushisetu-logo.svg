@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">KrushiSetu logo</title>
+  <desc id="desc">A green leaf bridge above golden farm field lines.</desc>
+  <rect width="1200" height="700" fill="#FFFFFF"/>
+  <!-- Leaf formed as a bridge: Krushi (growth) + Setu (connection) -->
+  <path d="M360 330 C440 145 700 130 850 290 C716 349 510 400 360 330Z" fill="#2E7D32"/>
+  <path d="M403 324 C531 292 662 249 795 214" fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/>
+  <path d="M482 302 L470 252 M582 276 L568 221 M680 247 L666 198" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <!-- Bridge supports -->
+  <path d="M445 340 L445 392 M750 307 L750 392" fill="none" stroke="#2E7D32" stroke-width="22" stroke-linecap="round"/>
+  <!-- Cultivated field lines -->
+  <path d="M344 414 C488 370 714 370 862 414" fill="none" stroke="#C89B3C" stroke-width="17" stroke-linecap="round"/>
+  <path d="M320 465 C485 414 725 414 886 465" fill="none" stroke="#C89B3C" stroke-width="17" stroke-linecap="round"/>
+  <path d="M300 516 C481 459 748 459 907 516" fill="none" stroke="#C89B3C" stroke-width="17" stroke-linecap="round"/>
+  <!-- Wordmark -->
+  <text x="600" y="620" text-anchor="middle" font-family="Poppins, Montserrat, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-2">
+    <tspan fill="#2E7D32">Krushi</tspan><tspan fill="#C89B3C">Setu</tspan>
+  </text>
+</svg>
